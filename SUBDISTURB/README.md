@@ -4,7 +4,7 @@
 A Sub-domain brute forcer.
 ## USAGE
  ```
-python3 subdisturb.py [DOMAIN] -w [WORDLIST]
+python3 subdisturb.py [DOMAIN] -w/--wordlist [WORDLIST]
 ```
 
 For cookies.
