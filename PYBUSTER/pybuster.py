@@ -39,9 +39,9 @@ class PyBuster:
 
 		# Parsing command line arguments by the argparse library.
 
-		parser = ArgumentParser(description="Web directory brute forcer.", usage="./%(prog)s -u URL -w WORDLIST")
+		parser = ArgumentParser(description="Web directory brute forcer.", usage="./%(prog)s -u [URL] -w [WORDLIST]")
 		parser.add_argument("-V", "--version", action="version", version="PyBuster: version: 1.0", help="Prints the current version.")
-		parser.add_argument(metavar="url", help="Url of the website.", dest="url")
+		parser.add_argument(metavar="[URL]", help="Url of the website.", dest="url")
 		parser.add_argument("-w", "--wordlist", metavar="", help="Wordlist for brute forcing.", type=FileType("r"), required=True)
 		parser.add_argument("-H", "--headers", metavar="", help="Custom Headers.")
 		parser.add_argument("-c", "--cookies", metavar="", help="Set custom cookies.")
