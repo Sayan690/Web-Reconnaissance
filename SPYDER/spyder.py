@@ -2,7 +2,6 @@
 
 import sys
 import random
-import warnings
 
 from argparse import ArgumentParser, FileType
 from requests import get, Session
@@ -13,7 +12,6 @@ from termcolor import colored
 class Spider:
 	def __init__(self):
 		if __name__ == '__main__':
-			warnings.filterwarnings("ignore", category=UserWarning, module='bs4')
 			self.session = Session()
 			self.list = []
 
