@@ -40,8 +40,8 @@ class Disturb:
 		print(f"[+] Time Taken: {round(self.end-self.st, 2)}s.")
 
 	def args(self):
-		parser = ArgumentParser(description="Sub-domain brute forcer.", usage="./%(prog)s domain -w [wordlist]")
-		parser.add_argument(metavar="domain", help="Domain for brute forcing.", dest="domain")
+		parser = ArgumentParser(description="Sub-domain brute forcer.", usage="./%(prog)s [DOMAIN] -w [WORDLIST]")
+		parser.add_argument(metavar="[DOMAIN]", help="Domain for brute forcing.", dest="domain")
 		parser.add_argument("-v", "--version", action="version", version="subdisturb: version: 1.0", help="Prints the current version.")
 		parser.add_argument("-w", "--wordlist", metavar="", help="Wordlist for brute forcing.", type=FileType("r"), required=True)
 		parser.add_argument("-c", "--cookies", metavar="", help="Set custom cookies.")
