@@ -37,6 +37,7 @@ class Spider:
 	def args(self):
 		parser = ArgumentParser(description="Recurrsive Web Spider.", usage="./%(prog)s domain")
 		parser.add_argument(metavar="domain", dest="domain", help="Domain for automatic spidering.")
+		parser.add_argument("-v", "--version", action="version", version="SPYDER: version: 1.0", help="Prints the current version.")
 		parser.add_argument("-c", "--cookies", metavar="", help="Set custom cookies.")
 		parser.add_argument("-o", "--output", metavar="", help="Output File.")
 		parser.add_argument("--clean", action="store_true", help="Clean ouput.")
