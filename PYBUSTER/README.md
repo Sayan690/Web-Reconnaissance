@@ -5,11 +5,11 @@ Multi-functional Web directory brute-forcer.
 
 ## USAGE
 ```
-python3 pybuster.py [URL] -w [WORDLIST]
+python3 pybuster.py [URL] -w/--wordlist [WORDLIST]
 ```
 
 ```
-python3 pybuster.py kali.org -w default_wordlist.txt
+python3 pybuster.py kali.org -w/--wordlist default_wordlist.txt
 ```
 
 # Contribution
