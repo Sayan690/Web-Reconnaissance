@@ -3,19 +3,19 @@
 
 A Recursive Web Application Spider.
 ## USAGE
-    ```
-    python3 spyder.py [DOMAIN]
-    ```
+ ```
+python3 spyder.py [DOMAIN]
+```
 
-    For clean output.
-    ```
-    python3 spyder.py kali.org --clean
-    ```
+For clean output.
+```
+python3 spyder.py kali.org --clean
+```
 
-    For cookies.
-    ```
-    python3 spyder.py kali.org -c/--cookies 'PHPSESSION=abcdxyz'
-
+For cookies.
+```
+python3 spyder.py kali.org -c/--cookies 'PHPSESSION=abcdxyz'
+```
 
 # Contribution
 
